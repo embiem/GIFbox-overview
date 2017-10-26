@@ -1,28 +1,26 @@
 {
-  "//1": "describes your app and its dependencies",
-  "//2": "https://docs.npmjs.com/files/package.json",
-  "//3": "updating this file will download and update your packages",
-
-  "name": "my-glitch-app",
+  "name": "gifbox-overview-server",
   "version": "0.0.1",
-  "description": "What am I about?",
+  "description": "Showing GIFs made using the GIFbox project",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.16.2"
+    "escape-html": "^1.0.3",
+    "express": "^4.16.2",
+    "firebase": "^4.6.0",
+    "node-schedule": "^1.2.5",
+    "nodemailer": "^4.3.1",
+    "promise": "^8.0.1"
   },
   "engines": {
     "node": "8.x"
   },
-  "repository": {
-    "url": "https://glitch.com/edit/#!/welcome-project"
-  },
   "license": "MIT",
   "keywords": [
     "node",
-    "glitch",
-    "express"
+    "express",
+    "firebase"
   ]
 }
